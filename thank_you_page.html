@@ -24,7 +24,45 @@
     
         <!-- Custom Fonts from Google -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-        <!-- Google Tag Manager -->
+       <script>
+   window.dataLayer = window.dataLayer || [];
+   dataLayer.push({
+       "transactionId": "sk1006",    // internal order ID (not more than 100 characters)
+       "transactionChannel": "adm", // deduplication parameter (for Admitad by default)
+       "transactionAction": "1",     // action code (defined during integration)
+       "transactionProducts": [{
+           "sku": "1354471145550",   // internal product ID (not more than 100 characters)
+           "tariff": "2",            // tariff code (defined during integration)
+           "price": "300.00",        // product price
+           "priceCurrency": "RUB",   // currency code ISO-4217 alfa-3
+          "quantity": "2"           // product quantity
+       }, {
+           "sku": "1354471047246",
+           "tariff": "2",
+           "price": "500.00",
+           "priceCurrency": "RUB",
+           "quantity": "1"
+       }]
+   });
+</script>
+<script>
+
+   window.dataLayer = window.dataLayer || [];
+
+   dataLayer.push({
+       "transactionId": "sk1006",
+       "transactionChannel": "adm",
+       "transactionAction": "1",
+       "transactionProducts": [{
+           "sku": "1354471145550",
+           "tariff": "2",
+           "price": "300.00",
+           "priceCurrency": "RUB",
+           "quantity": "2"
+       }],
+       "transactionPromocode": "ADMPROMO" // promo code value
+   });
+</script> <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
